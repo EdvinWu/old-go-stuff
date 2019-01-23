@@ -1,0 +1,10 @@
+database:
+  name: htt_db
+  user: htt_admin
+  password: ba13dams
+  host: 192.168.99.100
+  port: 5432
+redis:
+  address: localhost:6379
+  password:
+  databaseNo: 0

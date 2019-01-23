@@ -1,0 +1,14 @@
+database:
+  name: htt_db
+  user: htt_admin
+  password: ba13dams
+  host: localhost
+  port: 5432
+redis:
+  address: localhost:6379
+  password:
+  databaseNo: 0
+caches:
+  parent_cache:
+    unit: DAY
+    value: 2

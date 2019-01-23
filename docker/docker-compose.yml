@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  htt_db:
+    image: 'postgres:10'
+    ports:
+    - '5432:5432'
+    container_name: htt_database
+    environment:
+      POSTGRES_DB: htt_db
+      POSTGRES_USER: htt_admin
+      POSTGRES_PASSWORD: ba13dams
+  redis:
+    image: "redis:4.0.10"
+    ports:
+    - "6379:6379"
