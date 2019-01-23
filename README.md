@@ -1,4 +1,4 @@
 # old-go-stuff
 
 old go pet-project 
-built by dep
+built using dep
